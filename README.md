@@ -21,12 +21,11 @@ I build test frameworks that check every business rule at two layers: the API re
 Python + Pytest framework for an eligibility determination (EDBC) API.
 
 - 77 tests across smoke, regression, database and end-to-end suites (about 2 seconds per run)
-- - Data-driven boundary tests: income at the limit vs one cent over, age and work-hour edges
-  - - Read-only SQL checks that compare every API result with the database
-    - - JSON Schema contracts and multilingual notice checks (English, Spanish, Hindi, Chinese)
-      - - GitHub Actions CI: smoke gate, then regression on Python 3.11 to 3.13, with HTML and JUnit reports
-       
-        - ## 📫 Connect
-       
-        - Open to QA automation and SDET opportunities. Feel free to reach out!
-        - 
+- Data-driven boundary tests: income at the limit vs one cent over, age and work-hour edges
+- Read-only SQL checks that compare every API result with the database
+- JSON Schema contracts and multilingual notice checks (English, Spanish, Hindi, Chinese)
+- GitHub Actions CI: smoke gate, then regression on Python 3.11 to 3.13, with HTML and JUnit reports
+
+## 📫 Connect
+
+Open to QA automation and SDET opportunities. Feel free to reach out!
